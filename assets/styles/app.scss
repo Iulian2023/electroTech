@@ -1,5 +1,10 @@
-// customize some Bootstrap variables
-$primary: darken(#428bca, 20%);
+@import "./components/navbar-visitor";
+
+@import "./base/variables";
+
+@import "./base/typography";
+
+@import "./base/base_visitor";
 
 // the ~ allows you to reference things in node_modules
 @import "~bootstrap/scss/bootstrap";
